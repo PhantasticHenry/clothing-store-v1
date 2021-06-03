@@ -1,5 +1,7 @@
-@use './abstracts' as *;
 @use './base/base' as *;
-// @import "abstracts/variables";
-// @import "abstracts/mixins";
-// @import "base/base";
+@use './layout/header' as *;
+@use './layout/navigation' as *;
+@use './layout/slideshow' as *;
+@use './components/logo' as *;
+@use './components/heading.scss' as *;
+@use './components/dropdown' as *;
