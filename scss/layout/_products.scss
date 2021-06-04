@@ -80,3 +80,7 @@
 		}
 	}
 }
+
+.products-btn {
+	@include flexPosition;
+}
