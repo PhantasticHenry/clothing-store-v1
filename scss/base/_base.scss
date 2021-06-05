@@ -9,6 +9,14 @@
 html {
 	// 10 / 16 = .625 * 100 ** Changing 1rem === 10px
 	font-size: 62.5%;
+
+	@include response(md) {
+		font-size: 56.25%;
+	}
+
+	@include response(sm) {
+		font-size: 50%;
+	}
 }
 
 .container {
